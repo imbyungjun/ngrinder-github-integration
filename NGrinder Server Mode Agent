@@ -1,9 +1,15 @@
-<mxfile host="app.diagrams.net" modified="2020-11-19T06:31:16.239Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="7xtGqdcfxpJC08YsirhS" version="13.10.0" type="github">
+<mxfile host="app.diagrams.net" modified="2020-11-19T06:40:30.352Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="n0g6CoU8iwXybG5-xfAo" version="13.10.0" type="github">
   <diagram id="iZSyT_a2GKdtLNo8eBwH" name="Page-1">
-    <mxGraphModel dx="1426" dy="771" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1426" dy="714" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="e1XcKgRbSr7HVLoi1wQQ-83" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;fontSize=12;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="560" y="815" as="sourcePoint" />
+            <mxPoint x="560" y="20" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="e1XcKgRbSr7HVLoi1wQQ-49" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="610" y="130" width="425" height="570" as="geometry" />
         </mxCell>
@@ -17,11 +23,12 @@
           <mxGeometry x="175" y="170" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="e1XcKgRbSr7HVLoi1wQQ-66" value="&amp;nbsp;Socket 연결 요청&amp;nbsp;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="e1XcKgRbSr7HVLoi1wQQ-5" target="e1XcKgRbSr7HVLoi1wQQ-55">
-          <mxGeometry relative="1" as="geometry">
+          <mxGeometry x="-0.0053" relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="430" y="425" />
               <mxPoint x="430" y="630" />
             </Array>
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="e1XcKgRbSr7HVLoi1wQQ-5" value="SingleConsole" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -199,22 +206,16 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="e1XcKgRbSr7HVLoi1wQQ-83" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;fontSize=12;" edge="1" parent="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="560" y="815" as="sourcePoint" />
-            <mxPoint x="560" y="20" as="targetPoint" />
-          </mxGeometry>
+        <mxCell id="e1XcKgRbSr7HVLoi1wQQ-91" value="외부망" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="730" y="40" width="115" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="e1XcKgRbSr7HVLoi1wQQ-91" value="외부망" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="615" y="70" width="40" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="e1XcKgRbSr7HVLoi1wQQ-94" value="사내망" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="100" y="70" width="40" height="20" as="geometry" />
+        <mxCell id="e1XcKgRbSr7HVLoi1wQQ-94" value="사내망" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="254" y="40" width="70" height="20" as="geometry" />
         </mxCell>
         <mxCell id="e1XcKgRbSr7HVLoi1wQQ-95" value="&amp;nbsp;접근 불가능&amp;nbsp;" style="endArrow=classic;html=1;strokeWidth=1;fontSize=14;dashed=1;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="630" y="60" as="sourcePoint" />
-            <mxPoint x="480" y="60" as="targetPoint" />
+            <mxPoint x="670" y="50" as="sourcePoint" />
+            <mxPoint x="440" y="50" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
